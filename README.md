@@ -1,6 +1,6 @@
 # go-kaleido-hdwallet
 
-> Kaleido HD Wallet is forked from [Ethereum HD Wallet](https://github.com/miguelmota/go-ethereum-hdwallet), which derivations from [mnemonic] seed in Go (golang). Implements the [kaleido](https://github.com/kaleidochain/kaleido) [`accounts.Wallet`](https://github.com/kaleidochain/kaleido/blob/master/accounts/accounts.go) interface.
+> Kaleido HD Wallet is forked from [Ethereum HD Wallet](https://github.com/miguelmota/go-ethereum-hdwallet), which derivations from [mnemonic] seed in Go (golang). Implements the [kaleido](https://github.com/kaleidochain/kaleido) [`accounts.Wallet`](https://github.com/kaleidochain/kaleido/blob/master/accounts/accounts.go) interface by renaming `ethereum/go-ethereum` to `kaleidochain/kaleido` mainly in imports([see details](https://github.com/kaleidochain/go-kaleido-hdwallet/commit/0b0e8151540affa3c184d960f081db1e48c991d6)).
 
 [![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/miguelmota/go-ethereum-hdwallet/master/LICENSE) [![GoDoc](https://godoc.org/github.com/kaleidochain/go-kaleido-hdwallet?status.svg)](https://godoc.org/github.com/kaleidochain/go-kaleido-hdwallet)
 
