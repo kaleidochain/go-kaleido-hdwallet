@@ -1,26 +1,18 @@
-<h3 align="center">
-  <br />
-  <img src="https://user-images.githubusercontent.com/168240/51436479-a4cf9e80-1c42-11e9-9af3-3bb827b8f2de.png" alt="logo" width="600" />
-  <br />
-  <br />
-  <br />
-</h3>
+# go-kaleido-hdwallet
 
-# go-ethereum-hdwallet
+> Kaleido HD Wallet is forked from [Ethereum HD Wallet](https://github.com/miguelmota/go-ethereum-hdwallet), which derivations from [mnemonic] seed in Go (golang). Implements the [kaleido](https://github.com/kaleidochain/kaleido) [`accounts.Wallet`](https://github.com/kaleidochain/kaleido/blob/master/accounts/accounts.go) interface.
 
-> Ethereum HD Wallet derivations from [mnemonic] seed in Go (golang). Implements the [go-ethereum](https://github.com/ethereum/go-ethereum) [`accounts.Wallet`](https://github.com/ethereum/go-ethereum/blob/master/accounts/accounts.go) interface.
-
-[![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/miguelmota/go-ethereum-hdwallet/master/LICENSE) [![Build Status](https://travis-ci.org/miguelmota/go-ethereum-hdwallet.svg?branch=master)](https://travis-ci.org/miguelmota/go-ethereum-hdwallet) [![Go Report Card](https://goreportcard.com/badge/github.com/miguelmota/go-ethereum-hdwallet?)](https://goreportcard.com/report/github.com/miguelmota/go-ethereum-hdwallet) [![GoDoc](https://godoc.org/github.com/miguelmota/go-ethereum-hdwallet?status.svg)](https://godoc.org/github.com/miguelmota/go-ethereum-hdwallet)
+[![License](http://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/miguelmota/go-ethereum-hdwallet/master/LICENSE) [![GoDoc](https://godoc.org/github.com/kaleidochain/go-kaleido-hdwallet?status.svg)](https://godoc.org/github.com/kaleidochain/go-kaleido-hdwallet)
 
 ## Install
 
 ```bash
-go get -u github.com/miguelmota/go-ethereum-hdwallet
+go get -u github.com/kaleidochain/go-kaleido-hdwallet
 ```
 
 ## Documenation
 
-[https://godoc.org/github.com/miguelmota/go-ethereum-hdwallet](https://godoc.org/github.com/miguelmota/go-ethereum-hdwallet)
+[https://godoc.org/github.com/kaleidochain/go-kaleido-hdwallet](https://godoc.org/github.com/kaleidochain/go-kaleido-hdwallet)
 
 ## Getting started
 
@@ -31,7 +23,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/miguelmota/go-ethereum-hdwallet"
+	"github.com/kaleidochain/go-kaleido-hdwallet"
 )
 
 func main() {
@@ -69,9 +61,9 @@ import (
 	"math/big"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/miguelmota/go-ethereum-hdwallet"
+	"github.com/kaleidochain/kaleido/common"
+	"github.com/kaleidochain/kaleido/core/types"
+	"github.com/kaleidochain/go-kaleido-hdwallet"
 )
 
 func main() {

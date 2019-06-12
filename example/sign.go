@@ -5,9 +5,9 @@ import (
 	"math/big"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/miguelmota/go-ethereum-hdwallet"
+	"github.com/kaleidochain/go-kaleido-hdwallet"
+	"github.com/kaleidochain/kaleido/common"
+	"github.com/kaleidochain/kaleido/core/types"
 )
 
 func main() {

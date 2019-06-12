@@ -3,7 +3,7 @@ all: build
 
 .PHONY: install
 install:
-	@go get -u github.com/miguelmota/go-ethereum-hdwallet
+	@go get -u github.com/kaleidochain/go-kaleido-hdwallet
 
 .PHONY: build
 build:
@@ -19,7 +19,7 @@ ensure:
 
 .PHONY: deps/fix
 deps/fix:
-	@cp -r "${GOPATH}/src/github.com/ethereum/go-ethereum/crypto/secp256k1/libsecp256k1" "vendor/github.com/ethereum/go-ethereum/crypto/secp256k1/"
+	@cp -r "${GOPATH}/src/github.com/kaleidochain/kaleido/crypto/secp256k1/libsecp256k1" "vendor/github.com/kaleidochain/kaleido/crypto/secp256k1/"
 
 .PHONY: run/example/1
 run/example/1:

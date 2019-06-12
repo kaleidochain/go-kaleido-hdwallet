@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/kaleidochain/kaleido/common"
+	"github.com/kaleidochain/kaleido/common/hexutil"
+	"github.com/kaleidochain/kaleido/core/types"
+	"github.com/kaleidochain/kaleido/crypto"
 )
 
 // TODO: table test
